@@ -11,7 +11,5 @@ intents.members = True
 bot = commands.Bot(command_prefix=('!'), intents=intents)
 
 bot.remove_command('help')
-con = sqlite3.connect("En bot.db")
-cur = con.cursor()
 
 tdict = {}
